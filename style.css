@@ -1,0 +1,64 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    border: 1px solid #cec9c9;
+    background-color: #dddbdb;
+    margin: 0;
+    padding-right: 5%;
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color: rgb(15, 14, 14);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.header-text{
+    font-size: 40px;
+    padding-top: 10%;
+}
+.orange-color{
+    color: tomato;
+}
+#home{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width a{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    color: white;
+    padding: 3%;
+    border-radius: 20px;
+}
+.half-width p{
+    margin-bottom: 10%;
+}
+#aboutUs{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+#aboutUs img{
+    width: 60%;
+    padding-left: 10%;
+}
+#aboutUs h1{
+    padding-top: 10%;
+}
+.text-center{
+    text-align: center;
+}
