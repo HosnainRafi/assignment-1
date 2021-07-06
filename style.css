@@ -76,6 +76,9 @@ li a{
     width: 80%;
     margin: 10%;
 }
-.card-text h3,p{
+.card-text p{
     margin: 5% 10%;
+}
+.card-text h3{
+    margin: 5% 10%; 
 }
